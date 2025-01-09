@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Zainal Nur Danish bin Zainal</title>
+    <style>
+        body {
+            font-family: 'Arial', Helvetica, sans-serif;
+            background-color: #1c744f; 
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #002b36; 
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #ffffff;
+            border-bottom: 4px solid #586e75; 
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header img.logo-left, header img.logo-right {
+            height: 50px;
+            width: auto;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        header img:hover {
+            background-color: #085f42; 
+            border-radius: 5px;
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #073642; 
+        }
+        
+        nav ul li {
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 15px 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #076943; 
+            border-radius: 5px;
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 90px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .experience-item {
+            display: flex;
+            align-items: flex-start;
+            border-left: 4px solid #002b36;
+            padding: 20px;
+            margin-bottom: 40px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .experience-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .experience-item-icon {
+            font-size: 2em;
+            color: #073642;
+            margin-right: 20px;
+        }
+
+        .experience-item-content {
+            flex: 1;
+        }
+
+        .experience-item h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+            color: #002b36;
+        }
+
+        .experience-item p {
+            margin: 5px 0;
+        }
+
+        .experience-item ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .experience-item ul li {
+            list-style-type: disc;
+        }
+
+        h2 {
+            color: #002b36; 
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p, ul {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #002b36;
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+            border-top: 4px solid #586e75;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #073642; 
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 1em;
+        }
+        
+        form button {
+            padding: 10px 20px;
+            background-color: #073642; 
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        form button:hover {
+            background-color: #586e75; 
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+        
+            nav ul li {
+                margin: 5px 0;
+            }
+        
+            header h1 {
+                font-size: 2em;
+            }
+        
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="student.html">
+            <img src="Image/Black and White Minimalist Professional Initial Logo (1).png" alt="Logo Left" class="logo-left">
+        </a>
+        <h1>Experience</h1>
+        <a href="student.html">
+            <img src="Image/Black and White Minimalist Professional Initial Logo (1).png" alt="Logo Right" class="logo-right">
+        </a>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="skill.html">Skill</a></li>
+            </ul>
+        </nav>
+    <main>
+        <section id="experience">
+            <h2> Work Experience</h2>
+
+            <div class="experience-item">
+                <div class="experience-item-icon">&#11088;</div>
+                <div class="experience-item-content">
+                    <h3>FAMOUS AMOS MALAYSIA</h3>
+                    <p>Work Experience : 2020</p>
+                    <p>Key Responsibilities:</p>
+                    <ul>
+                        <li>Given responsibilities to be able to push sales based on monthly target.</li>
+                        <li>Cooperate with the all the crew members in order to work as a one team.</li>
+                        <li>Improved team performance through effective communication and motivation techniques. </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-item-icon">&#127942;</div>
+                <div class="experience-item-content">
+                    <h3>ADIDAS MALAYSIA </h3>
+                    <p>Work Experience: 2023</p>
+                    <p>Key Responsibilities:</p>
+                    <ul>
+                        <li>To reach the sales based on required monthly target.</li>
+                        <li>Managed budgets, schedules, and logistics for smooth event operations.</li>
+                        <li>Engaging customer and interact in order to push up sales.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-item-icon">&#9203;</div>
+                <div class="experience-item-content">
+                    <h3>DOMINOS PIZZA (M) </h3>
+                    <p>Work Experiences: 2023</p>
+                    <p>Key Responsibilities:</p>
+                    <ul>
+                        <li>Taking customer orders in person, over the phone, or through online systems.</li>
+                        <li>Ensuring orders are accurate and meet customer expectations.</li>
+                        <li>Communicating effectively with kitchen staff and delivery drivers.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-item-icon">&#128218;</div>
+                <div class="experience-item-content">
+                    <h3>ALL IT SDN.BHD.</h3>
+                    <p>Working Experiences: 2023-2024</p>
+                    <p>Key Responsibilities:</p>
+                    <ul>
+                        <li>Demonstrating product features and benefits, including hardware specifications and software functionalities.</li>
+                        <li>Explaining warranties, repair services, and upgrade options to customers.</li>
+                        <li>Recommending compatible products (e.g., monitors, keyboards, and cables) to increase sales.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zainal Nur Danish bin Zainal</p>
+    </footer>
+</body>
+</html>
